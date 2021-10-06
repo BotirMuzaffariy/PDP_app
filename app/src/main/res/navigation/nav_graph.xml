@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="uz.lycr.lesson7pdpapp.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/allCoursesFragment"
+        android:name="uz.lycr.lesson7pdpapp.AllCoursesFragment"
+        android:label="fragment_all_courses"
+        tools:layout="@layout/fragment_all_courses" />
+    <fragment
+        android:id="@+id/aboutCourseFragment"
+        android:name="uz.lycr.lesson7pdpapp.AboutCourseFragment"
+        android:label="fragment_about_course"
+        tools:layout="@layout/fragment_about_course" />
+    <fragment
+        android:id="@+id/addStudentFragment"
+        android:name="uz.lycr.lesson7pdpapp.AddStudentFragment"
+        android:label="fragment_add_student"
+        tools:layout="@layout/fragment_add_student" />
+    <fragment
+        android:id="@+id/allCoursesMentorFragment"
+        android:name="uz.lycr.lesson7pdpapp.AllCoursesMentorFragment"
+        android:label="fragment_all_courses_group"
+        tools:layout="@layout/fragment_all_courses_mentor" />
+    <fragment
+        android:id="@+id/courseMentorsFragment"
+        android:name="uz.lycr.lesson7pdpapp.CourseMentorsFragment"
+        android:label="fragment_course_mentors"
+        tools:layout="@layout/fragment_course_mentors" />
+    <fragment
+        android:id="@+id/allCoursecGroupFragment"
+        android:name="uz.lycr.lesson7pdpapp.AllCoursesGroupFragment"
+        android:label="fragment_all_coursec_group"
+        tools:layout="@layout/fragment_all_courses_group" />
+    <fragment
+        android:id="@+id/courseGroupsFragment"
+        android:name="uz.lycr.lesson7pdpapp.CourseGroupsFragment"
+        android:label="fragment_course_groups"
+        tools:layout="@layout/fragment_course_groups" />
+    <fragment
+        android:id="@+id/viewPagerGroupFragment"
+        android:name="uz.lycr.lesson7pdpapp.ViewPagerGroupFragment"
+        android:label="fragment_view_pager_group"
+        tools:layout="@layout/fragment_view_pager_group" />
+    <fragment
+        android:id="@+id/addGroupFragment"
+        android:name="uz.lycr.lesson7pdpapp.AddGroupFragment"
+        android:label="fragment_add_group"
+        tools:layout="@layout/fragment_add_group" />
+    <fragment
+        android:id="@+id/aboutGroupFragment"
+        android:name="uz.lycr.lesson7pdpapp.AboutGroupFragment"
+        android:label="fragment_about_group"
+        tools:layout="@layout/fragment_about_group" />
+</navigation>
